@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: softwaredeploymentimage 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: softwaredeploymentimage
+  template:
+    metadata:
+      labels:
+        app: softwaredeploymentimage 
+    spec:
+      containers:
+        - name: softwaredeploymentimage 
+          image: softwaredeploymentueregistry.azurecr.io/softwaredeploymentimage
+          ports:
+          - containerPort: 8080
