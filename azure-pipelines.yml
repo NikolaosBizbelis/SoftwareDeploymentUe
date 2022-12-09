@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '10eace05-a4bd-4be0-971c-b275a09f7fc2'
   imageRepository: 'softwaredeploymentimage'
   containerRegistry: 'softwaredeploymentueregistry.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: 'NodeApp/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'softwaredeploymentueregistry480287fb-auth'
 
