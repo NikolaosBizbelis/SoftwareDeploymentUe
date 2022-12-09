@@ -16,4 +16,4 @@ spec:
         - name: softwaredeploymentimage 
           image: softwaredeploymentueregistry.azurecr.io/softwaredeploymentimage
           ports:
-          - containerPort: 8080
+          - containerPort: 3000
