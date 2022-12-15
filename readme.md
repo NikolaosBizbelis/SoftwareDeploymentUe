@@ -8,6 +8,10 @@ A containerized DevOps pipeline that deploys a [Node.js application](http://20.3
 
 * [Docker image in the registry](https://softwaredeploymentueregistry.azurecr.io/softwaredeploymentimage)
 
+* Deployments:
+
+![](images/deployments.JPG)
+
 ## Setup
 If there is a choice, then make sure to always choose the cheapest option available!
 
